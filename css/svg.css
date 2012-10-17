@@ -1,0 +1,83 @@
+/*
+sadasant :.~
+Go to http://sadasant.com/license.txt to read the license.
+*/
+
+@font-face {
+	font-family:"VAL";
+	font-weight:bold;
+	src:url(../fnt/VAL.eot);
+	src:local('VAL'), url(../fnt/VAL.otf) format('truetype');
+}
+
+BODY {
+  background: #ffffff;
+  color: #04947B;
+}
+
+small {
+  font:9px sans-serif;
+  color:#555;
+}
+
+H1 {
+	font:bold 18px/1.2 'VAL', sans-serif;
+  position:relative;
+  margin:36px auto 0px;
+  color:#ddd;
+  font-size: 45px;
+  text-shadow: 2px 2px #aaaaaa; filter:progid:DXImageTransform.Microsoft.Shadow(color=#aaaaaa,strength=2, direction=120);
+  cursor:pointer;
+  cursor:hand;
+}
+H1 b    {
+  font-size: 60px; 
+}
+
+
+H2 {
+  font:bold 18px/1.2 'VAL', sans-serif;
+  position:relative;
+  margin:335px auto 0px;
+  color:#ddd;
+  font-size: 35px;
+  text-shadow: 2px 2px #aaaaaa; filter:progid:DXImageTransform.Microsoft.Shadow(color=#aaaaaa,strength=2, direction=120);
+}
+
+a{
+  text-decoration:none;
+  color:inherit;
+  cursor:pointer;
+  cursor:hand;
+}
+a:active{
+  color:#ccc;
+  text-shadow: 2px 2px #999; filter:progid:DXImageTransform.Microsoft.Shadow(color=#999999,strength=2, direction=120);
+}
+
+
+#_ {
+  background:#f5f5f5;
+  border-top:1px solid #ddd;
+  border-bottom:1px solid #ddd;
+  position: fixed;
+  text-align: center;
+  font-family:sans-serif;
+  color: #666;
+  width: 100%;
+  height:280px;
+  top: 130px;
+  left:0px;
+}
+#_ b{
+  color: #333;
+  font: bold 20px sans-serif;
+}
+#_ a{
+  color: #666;
+  font: bold 14px sans-serif;
+}
+#_ a:hover{
+  color: #999;
+  font: bold 14px sans-serif;
+}
