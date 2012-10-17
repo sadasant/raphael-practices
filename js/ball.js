@@ -1,5 +1,5 @@
 // sadasant :.~
-// Go to http://sadasant.com/license.txt to read the license.
+// Go to http://sadasant.com/license to read the license.
 
 var guy = {
   mouse: {x: 0, y: 0},
